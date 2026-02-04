@@ -3,12 +3,10 @@ import React from 'react';
 const PhotoGallery: React.FC = () => {
   // Using placeholder images for demo. In a real app, import local images or use URLs.
   const photos = [
-    "https://picsum.photos/600/800?random=1",
-    "https://picsum.photos/600/600?random=2",
-    "https://picsum.photos/600/900?random=3",
-    "https://picsum.photos/600/700?random=4",
-    "https://picsum.photos/600/800?random=5",
-    "https://picsum.photos/600/600?random=6",
+    "images/hajar-3.jpeg",
+    "images/Gemini_Generated_Image_4yjh7p4yjh7p4yjh.png",
+    "images/Gemini_Generated_Image_cmoqc9cmoqc9cmoq.png",
+    "images/Gemini_Generated_Image_rkgtt0rkgtt0rkgt.png",
   ];
 
   return (
