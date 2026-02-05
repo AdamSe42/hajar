@@ -1,13 +1,11 @@
 import React from 'react';
+import hajar3 from './images/hajar-3.jpeg';
+import gem1 from './images/Gemini_Generated_Image_4yjh7p4yjh7p4yjh.png';
+import gem2 from './images/Gemini_Generated_Image_cmoqc9cmoqc9cmoq.png';
+import gem3 from './images/Gemini_Generated_Image_rkgtt0rkgtt0rkgt.png';
 
 const PhotoGallery: React.FC = () => {
-  // Using placeholder images for demo. In a real app, import local images or use URLs.
-  const photos = [
-    "images/hajar-3.jpeg",
-    "images/Gemini_Generated_Image_4yjh7p4yjh7p4yjh.png",
-    "images/Gemini_Generated_Image_cmoqc9cmoqc9cmoq.png",
-    "images/Gemini_Generated_Image_rkgtt0rkgtt0rkgt.png",
-  ];
+  const photos = [gem2, gem1, hajar3, gem3];
 
   return (
     <div className="p-4 md:p-8">
